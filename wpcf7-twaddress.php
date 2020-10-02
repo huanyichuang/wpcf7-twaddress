@@ -21,7 +21,19 @@ if ( ! defined( 'WPINC' ) ) {
 
 // Check if Contact Form 7 is installed.
 if ( ! defined( 'WPCF7_VERSION' ) ) {
+	add_action( 'admin_notices', 'wpcf7_twaddress_admin_notice__warning' );	
 	return;
+}
+
+function wpcf7_twaddress_admin_notice__warning() {
+    $class = 'notice notice-warning';
+	$message = sprintf( '<strong>Contact Form 7 Taiwan Address Selector Extension</strong> %s',
+		/* translators: warning message when Contact Form 7 is not activated. */
+		esc_html__( 'is an extension for Contact Form 7. You must install Contact Form 7 before activating this extension.',
+			'wpcf7-twaddress' )
+	);
+ 
+	printf( '<div class="%1$s"><p>%2$s</p></div>', esc_attr( $class ), $message ); 
 }
 
 /**
