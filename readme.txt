@@ -1,4 +1,4 @@
-=== Contact Form 7 Taiwan Address Selector Extension ===
+=== Taiwan Address Selector Extension for Contact Form 7 ===
 Contributors: no249a002
 Donate link: https://buymeacoff.ee/hycim
 Tags: wpcf7, contact, form, taiwan, address, multilingual

@@ -1,7 +1,6 @@
 <?php
 /**
- * Plugin Name:       Contact Form 7 Taiwan Address Selector Extension
- * Plugin URI:        https://huanyichuang.com/
+ * Plugin Name:       Taiwan Address Selector Extension for Contact Form 7
  * Description:       To make a new tag for Contact Form 7 to add Taiwan address.
  * Version:           1.0.0
  * Requires at least: 5.2

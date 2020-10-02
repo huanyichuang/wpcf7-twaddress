@@ -1,4 +1,6 @@
 {
+    "name": "wpcf7_twaddress",
+    "version": "1.0.0",
     "dependencies": {},
     "devDependencies": {
         "@wordpress/eslint-plugin": "^7.2.1",
