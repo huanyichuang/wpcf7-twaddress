@@ -11,6 +11,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 An extension that helps you make a new tag for Contact Form 7 to add Taiwan address.
 
+This plugin is based on the wonderful work of Denny Kuo on [the GitHub](https://dennykuo.github.io/tw-city-selector/#/).
+
 == Installation ==
 
 1. Upload the entire `wpcf7-twaddress` folder to the `/wp-content/plugins/` directory.
