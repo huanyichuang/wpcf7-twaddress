@@ -3,15 +3,15 @@
     "version": "1.0.0",
     "dependencies": {},
     "devDependencies": {
-        "@wordpress/eslint-plugin": "^7.2.1",
-        "eslint": "^7.10.0",
+        "@wordpress/eslint-plugin": "^7.4.0",
+        "eslint": "^7.18.0",
         "eslint-config-standard": "^14.1.1",
         "eslint-plugin-import": "^2.22.1",
         "eslint-plugin-node": "^11.1.0",
         "eslint-plugin-promise": "^4.2.1",
-        "eslint-plugin-standard": "^4.0.1"
+        "eslint-plugin-standard": "^4.1.0"
     },
     "scripts": {
-        "lint": "npx eslint assets/js/*.js" 
+        "lint": "npx eslint assets/js/*.js"
     }
 }

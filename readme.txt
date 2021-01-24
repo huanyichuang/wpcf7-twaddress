@@ -3,7 +3,7 @@ Contributors: no249a002
 Donate link: https://buymeacoff.ee/hycim
 Tags: wpcf7, contact, form, taiwan, address, multilingual
 Requires at least: 5.2
-Tested up to: 5.5.1
+Tested up to: 5.6
 Requires PHP: 7.2
 Stable tag: 1.0.0
 License: GPLv2 or later
@@ -17,6 +17,12 @@ An extension that helps you make a new tag for Contact Form 7 to add Taiwan addr
 1. Activate the plugin through the **Plugins** screen (**Plugins > Installed Plugins**).
 
 You will find **address** button when you edit your contact forms via Contact Form 7.
+
+== Screenshots ==
+
+1. Click **address** button to add a new address tag.
+2. The tag will be put into the contact form automatically.
+3. The new fields will be displayed in the form.
 
 == Changelog ==
 
