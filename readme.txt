@@ -3,7 +3,7 @@ Contributors: no249a002
 Donate link: https://buymeacoff.ee/hycim
 Tags: wpcf7, contact, form, taiwan, address, multilingual
 Requires at least: 5.2
-Tested up to: 5.6
+Tested up to: 5.6.1
 Requires PHP: 7.2
 Stable tag: 1.1.0
 License: GPLv2 or later
@@ -25,6 +25,8 @@ You will find **address** button when you edit your contact forms via Contact Fo
 1. Click **address** button to add a new address tag.
 2. The tag will be put into the contact form automatically.
 3. The new fields will be displayed in the form.
+4. Use **Location Range** to limit the options of the dropdown menu.
+5. Use **Location Excluded** to exclude the options of the dropdown menu.
 
 == Changelog ==
 

@@ -238,7 +238,7 @@ function wpcf7_tag_generator_address( $contact_form, $args = '' ) {
 				<legend class="screen-reader-text"><?php echo esc_html( __( 'Options', 'contact-form-7' ) ); ?></legend>
 				<label><input type="checkbox" name="zip-hidden" class="option" /> <?php echo esc_html( __( 'Hide zipcodes', 'wpcf7-twaddress' ) ); ?></label><br />
 				<label><input type="checkbox" name="district-hidden" class="option" /> <?php echo esc_html( __( 'Hide districts', 'wpcf7-twaddress' ) ); ?></label><br />
-				<label><input type="checkbox" name="street-hidden" class="option" /> <?php echo esc_html( __( 'Hide streets', 'wpcf7-twaddress' ) ); ?></label><br />
+				<label><input type="checkbox" name="street-hidden" class="option" /> <?php echo esc_html( __( 'Hide address details', 'wpcf7-twaddress' ) ); ?></label><br />
 				<label><input type="checkbox" name="full-addr-hidden" class="option" checked /> <?php echo esc_html( __( 'Hide full address', 'wpcf7-twaddress' ) ); ?></label><br />
 				</fieldset>
 			</td>
