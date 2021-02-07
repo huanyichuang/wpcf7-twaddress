@@ -3,14 +3,15 @@ new TwCitySelector();
 ( function ( $ ) {
 	$( 'document' ).ready( function () {
 		$( '.street' ).change( function () {
+			const addr = $( this ).parent().prev();
 			$( this )
 				.parent()
 				.children( '[name*=address]' )
 				.val(
-					$( '.zipcode' ).val() +
-						$( '.county' ).val() +
-						$( '.district' ).val() +
-						$( '.street' ).val()
+					addr.children( '.zipcode' ).val() +
+						addr.children( '.county' ).val() +
+						addr.children( '.district' ).val() +
+						$( this ).val()
 				);
 		} );
 		const selectors = $( '[role="tw-city-selector"]' );
@@ -18,16 +19,17 @@ new TwCitySelector();
 			const that = $( this );
 			that.children( '.county, .district' ).on( 'change', function () {
 				const street =
-						$( '.street' ).length !== 0 ? $( '.street' ).val() : '',
+						that.children( '.street' ).length !== 0
+							? that.children( '.street' ).val()
+							: '',
 					district = that.attr( 'data-hidden-district' )
 						? ''
-						: $( '.district' ).val();
-				that.parent()
-					.children( '[class*=address]' )
+						: that.children( '.district' ).val();
+				that.next( '[class*=address]' )
 					.children( '[name*=address]' )
 					.val(
-						$( '.zipcode' ).val() +
-							$( '.county' ).val() +
+						that.children( '.zipcode' ).val() +
+							that.children( '.county' ).val() +
 							district +
 							street
 					);
