@@ -3,7 +3,7 @@ Contributors: no249a002
 Donate link: https://buymeacoff.ee/hycim
 Tags: wpcf7, contact, form, taiwan, address, multilingual
 Requires at least: 5.2
-Tested up to: 5.6.1
+Tested up to: 6.0
 Requires PHP: 7.2
 Stable tag: 1.1.0
 License: GPLv2 or later
